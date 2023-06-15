@@ -56,7 +56,7 @@
     
 <h2>User Registration Form</h2>
 
-    <form name="myForm" method="POST" action="form.php" > <!--   onsubmit="return validateForm()"   -->
+    <form name="myForm" method="POST" action="form.php" onsubmit="return validateForm()"> <!--      -->
         <div class="form-group row">
             <label for="fname" class="col-sm-2 col-form-label">First Name</label>
             <div class="col-sm-10">
